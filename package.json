@@ -1,0 +1,26 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.17.0",
+    "npm": "6.14.4"
+  },
+  "scripts": {
+    "tsc-init": "tsc --init",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon -x ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.23",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
